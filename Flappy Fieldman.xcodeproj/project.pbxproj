@@ -14,6 +14,10 @@
 		4A6366311AC1C1B700E32020 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6366301AC1C1B700E32020 /* Images.xcassets */; };
 		4A6366341AC1C1B700E32020 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6366321AC1C1B700E32020 /* LaunchScreen.xib */; };
 		4A6366401AC1C1B700E32020 /* Flappy_FieldmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A63663F1AC1C1B700E32020 /* Flappy_FieldmanTests.m */; };
+		4A63664C1AC1C1EE00E32020 /* gray-background-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6366491AC1C1EE00E32020 /* gray-background-4.png */; };
+		4A63664D1AC1C1EE00E32020 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63664A1AC1C1EE00E32020 /* images.png */; };
+		4A63664E1AC1C1EE00E32020 /* url.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A63664B1AC1C1EE00E32020 /* url.png */; };
+		4A6366511AC1C32B00E32020 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6366501AC1C32B00E32020 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		4A6366391AC1C1B700E32020 /* Flappy FieldmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy FieldmanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A63663E1AC1C1B700E32020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A63663F1AC1C1B700E32020 /* Flappy_FieldmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flappy_FieldmanTests.m; sourceTree = "<group>"; };
+		4A6366491AC1C1EE00E32020 /* gray-background-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray-background-4.png"; sourceTree = "<group>"; };
+		4A63664A1AC1C1EE00E32020 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		4A63664B1AC1C1EE00E32020 /* url.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = url.png; sourceTree = "<group>"; };
+		4A63664F1AC1C32B00E32020 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../../Game.h; sourceTree = "<group>"; };
+		4A6366501AC1C32B00E32020 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../../Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,8 @@
 				4A6366281AC1C1B700E32020 /* AppDelegate.m */,
 				4A63662A1AC1C1B700E32020 /* ViewController.h */,
 				4A63662B1AC1C1B700E32020 /* ViewController.m */,
+				4A63664F1AC1C32B00E32020 /* Game.h */,
+				4A6366501AC1C32B00E32020 /* Game.m */,
 				4A63662D1AC1C1B700E32020 /* Main.storyboard */,
 				4A6366301AC1C1B700E32020 /* Images.xcassets */,
 				4A6366321AC1C1B700E32020 /* LaunchScreen.xib */,
@@ -96,6 +107,9 @@
 		4A6366231AC1C1B700E32020 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A6366491AC1C1EE00E32020 /* gray-background-4.png */,
+				4A63664A1AC1C1EE00E32020 /* images.png */,
+				4A63664B1AC1C1EE00E32020 /* url.png */,
 				4A6366241AC1C1B700E32020 /* Info.plist */,
 				4A6366251AC1C1B700E32020 /* main.m */,
 			);
@@ -200,6 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A63662F1AC1C1B700E32020 /* Main.storyboard in Resources */,
+				4A63664D1AC1C1EE00E32020 /* images.png in Resources */,
+				4A63664C1AC1C1EE00E32020 /* gray-background-4.png in Resources */,
+				4A63664E1AC1C1EE00E32020 /* url.png in Resources */,
 				4A6366341AC1C1B700E32020 /* LaunchScreen.xib in Resources */,
 				4A6366311AC1C1B700E32020 /* Images.xcassets in Resources */,
 			);
@@ -222,6 +239,7 @@
 				4A63662C1AC1C1B700E32020 /* ViewController.m in Sources */,
 				4A6366291AC1C1B700E32020 /* AppDelegate.m in Sources */,
 				4A6366261AC1C1B700E32020 /* main.m in Sources */,
+				4A6366511AC1C32B00E32020 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
