@@ -13,6 +13,9 @@ NSInteger HighScoreNumber;
 @interface ViewController : UIViewController
 {
     IBOutlet UILabel *HighScore;
+    IBOutlet UILabel *Title;
+    IBOutlet UIButton *Play;
+    
 }
 
 

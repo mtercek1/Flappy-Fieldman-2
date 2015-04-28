@@ -27,5 +27,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+/*
+- (void)viewDidLayoutSubviews{
+    
+    Title.center = CGPointMake(0,0);
+    
+}*/
 
 @end
