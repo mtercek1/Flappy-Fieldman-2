@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray-background-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="EPc-E3-yzZ">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tumblr_inline_mwbs3hMdR91qkc0d3.png" translatesAutoresizingMaskIntoConstraints="NO" id="8yc-tZ-aE5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="611"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Flappy Fieldman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apz-Wu-J4B">
                                 <rect key="frame" x="120" y="122" width="360" height="80"/>
@@ -32,7 +32,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ijt-Nj-vnb" kind="presentation" id="KR9-p5-kpA"/>
+                                    <action selector="showGame:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qmk-P2-L5l"/>
+                                    <segue destination="Ijt-Nj-vnb" kind="presentation" id="VjG-gc-FYu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="High Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPj-2i-xOH">
@@ -55,6 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="141" y="141"/>
         </scene>
         <!--Game-->
         <scene sceneID="hnv-n0-WSt">
@@ -68,11 +70,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray-background-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eep-om-Wpb">
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tumblr_inline_mwbs3hMdR91qkc0d3.png" translatesAutoresizingMaskIntoConstraints="NO" id="vxX-dA-boF">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.png" translatesAutoresizingMaskIntoConstraints="NO" id="6oK-rL-o14">
-                                <rect key="frame" x="87" y="280" width="40" height="40"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ffwings1final.png" translatesAutoresizingMaskIntoConstraints="NO" id="6oK-rL-o14">
+                                <rect key="frame" x="87" y="280" width="100" height="60"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnY-8H-1Po">
                                 <rect key="frame" x="235" y="185" width="140" height="60"/>
@@ -84,13 +86,13 @@
                                     <action selector="StartGame:" destination="Ijt-Nj-vnb" eventType="touchUpInside" id="tUR-4b-SL9"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="url.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aa7-j2-U5S">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="column.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aa7-j2-U5S">
                                 <rect key="frame" x="0.0" y="578" width="600" height="22"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="url.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gya-YC-jpx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="column.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gya-YC-jpx">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="22"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="url.png" translatesAutoresizingMaskIntoConstraints="NO" id="wzB-a4-yQZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="column.png" translatesAutoresizingMaskIntoConstraints="NO" id="wzB-a4-yQZ">
                                 <rect key="frame" x="389" y="-278" width="53" height="500"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFz-3F-nru">
@@ -109,7 +111,7 @@
                                     <segue destination="vXZ-lx-hvc" kind="presentation" id="k0r-IG-F22"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="url.png" translatesAutoresizingMaskIntoConstraints="NO" id="DY6-rB-jDo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="column.png" translatesAutoresizingMaskIntoConstraints="NO" id="DY6-rB-jDo">
                                 <rect key="frame" x="389" y="347" width="53" height="500"/>
                             </imageView>
                         </subviews>
@@ -133,8 +135,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gray-background-4.png" width="1350" height="810"/>
-        <image name="images.png" width="277" height="182"/>
-        <image name="url.png" width="204" height="204"/>
+        <image name="column.png" width="132" height="245"/>
+        <image name="ffwings1final.png" width="638" height="302"/>
+        <image name="tumblr_inline_mwbs3hMdR91qkc0d3.png" width="500" height="706"/>
     </resources>
 </document>

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Game.h"
 
 @interface ViewController ()
 
@@ -19,8 +20,15 @@
     HighScoreNumber = [[NSUserDefaults standardUserDefaults] integerForKey:@"HighScoreSaved"];
     HighScore.text = [NSString stringWithFormat:@"High Score: %li", (long)HighScoreNumber];
     
+    
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)showGame:(id)sender {
+//    Game* game = [[Game alloc] init];
+//    [self presentViewController:game animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
